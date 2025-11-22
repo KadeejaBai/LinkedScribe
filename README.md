@@ -36,7 +36,7 @@ LinkScribe is built on a modern, AI-first technology stack:
 The content generation process follows a simple yet powerful flow. The client sends an audio file, and the server orchestrates a series of parallel AI tasks to generate all the necessary content efficiently.
 
 ```mermaid
-graph TD
+graph LR
     subgraph Client (Browser)
         A[1. User uploads an audio file] --> B{AudioUploadForm};
     end
