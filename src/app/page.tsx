@@ -64,7 +64,7 @@ export default function Home() {
         </div>
       </main>
       <footer className="py-6 text-center text-muted-foreground text-sm">
-        <p>Powered by LinkedAssist</p>
+        <p>Powered by LinkScribe</p>
       </footer>
     </div>
   );

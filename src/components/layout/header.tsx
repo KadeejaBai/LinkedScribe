@@ -6,7 +6,7 @@ export default function Header() {
       <div className="container flex h-14 items-center">
         <div className="flex items-center space-x-3">
           <Logo />
-          <span className="font-headline text-xl font-bold">LinkedAssist</span>
+          <span className="font-headline text-xl font-bold">LinkScribe</span>
         </div>
       </div>
     </header>

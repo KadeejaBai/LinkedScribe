@@ -1,10 +1,10 @@
-# LinkedAssist: AI-Powered Audio to LinkedIn Posts
+# LinkScribe: AI-Powered Audio to LinkedIn Posts
 
-LinkedAssist is a web application that transforms your audio recordings—like meeting snippets, voice notes, or presentation clips—into polished, ready-to-publish LinkedIn posts. Using the power of generative AI, it automatically transcribes your audio, summarizes the key points, and drafts a compelling post complete with relevant hashtags.
+LinkScribe is a web application that transforms your audio recordings—like meeting snippets, voice notes, or presentation clips—into polished, ready-to-publish LinkedIn posts. Using the power of generative AI, it automatically transcribes your audio, summarizes the key points, and drafts a compelling post complete with relevant hashtags.
 
 This tool is perfect for busy professionals, content creators, and marketers who want to maintain an active LinkedIn presence without spending hours on content creation.
 
-![LinkedAssist Screenshot](https://storage.googleapis.com/studioprod/42/bf/42bfb214-5d51-4886-9a25-e2a22285e6dd.png)
+![LinkScribe Screenshot](https://storage.googleapis.com/studioprod/42/bf/42bfb214-5d51-4886-9a25-e2a22285e6dd.png)
 
 ## ✨ Features
 
@@ -24,7 +24,7 @@ This tool is perfect for busy professionals, content creators, and marketers who
 
 ## ⚙️ How It Works: The Technology Stack
 
-LinkedAssist is built on a modern, AI-first technology stack:
+LinkScribe is built on a modern, AI-first technology stack:
 
 -   **Frontend**: Built with **Next.js (App Router)**, **React**, and **TypeScript** for a fast, modern, and type-safe user experience.
 -   **Styling**: Styled with **Tailwind CSS** and **ShadCN/UI** for a clean, responsive, and aesthetically pleasing design.
@@ -136,5 +136,4 @@ To run this project locally, you will need Node.js and an environment configured
         ```
 
 4.  **Open the Application**:
-    Navigate to `http://localhost:9002` in your browser to start using LinkedAssist.
-```
+    Navigate to `http://localhost:9002` in your browser to start using LinkScribe.
