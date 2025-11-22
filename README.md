@@ -4,7 +4,7 @@ LinkScribe is a web application that transforms your audio recordings—like mee
 
 This tool is perfect for busy professionals, content creators, and marketers who want to maintain an active LinkedIn presence without spending hours on content creation.
 
-![LinkScribe Screenshot](https://storage.googleapis.com/studioprod/42/bf/42bfb214-5d51-4886-9a25-e2a22285e6dd.png)
+![LinkScribe Demo](https://github.com/KadeejaBai/LinkedScribe/blob/main/demo.mp4)
 
 ## ✨ Features
 
