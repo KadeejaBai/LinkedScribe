@@ -37,18 +37,18 @@ The content generation process follows a simple yet powerful flow. The client se
 
 ```mermaid
 graph LR
-    subgraph Client (Browser)
+    subgraph Client_Browser ["Client (Browser)"]
         A[1. User uploads an audio file] --> B{AudioUploadForm};
     end
 
     B --> C[2. File is converted to a Base64 Data URI];
 
-    subgraph Server (Next.js Server Action)
+    subgraph Server_Next_js_Server_Action ["Server (Next.js Server Action)"]
         C --> D[generateContentFromAudio action];
         D --> E[3. Transcribe Audio to Text];
     end
 
-    subgraph "Genkit AI Flows (Parallel Processing)"
+    subgraph Genkit_AI_Flows_Parallel_Processing ["Genkit AI Flows (Parallel Processing)"]
         E --> F[summarizeAudioContent];
         E --> G[generateLinkedInPostFromTranscription];
         E --> H[suggestRelevantHashtags];
@@ -58,7 +58,7 @@ graph LR
     G --> I;
     H --> I;
 
-    subgraph Client (Browser)
+    subgraph Client_Browser_2 ["Client (Browser)"]
         I --> J[4. Display Summary, Post, and Hashtags];
         J --> K[5. User reviews, edits, and shares the post];
     end
