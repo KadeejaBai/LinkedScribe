@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { type GeneratedContent } from '@/app/actions';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
@@ -25,8 +25,12 @@ interface PostPreviewProps {
 export default function PostPreview({ content }: PostPreviewProps) {
   const [post, setPost] = useState(content.post);
   const [hashtags, setHashtags] = useState(content.hashtags.join(' '));
-  const [date, setDate] = useState<Date | undefined>(new Date());
+  const [date, setDate] = useState<Date | undefined>();
   const { toast } = useToast();
+
+  useEffect(() => {
+    setDate(new Date());
+  }, []);
   
   const avatarImage = PlaceHolderImages.find(img => img.id === 'avatar-1');
 
